@@ -22,7 +22,8 @@ public class Peamurdja1_laevad_fx {
         // 2: pihta saanud laev
         for (int i = 0; i < laius; i++) { // X telg
             for (int j = 0; j < pikkus; j++) { // Y telg
-                laud[i][j] = (int) (Math.random() * 1.01); // Aseta laua positsioonile i-j (x-y) 0 või 1
+                laud[i][j] = (int) (Math.random() * 2); // Aseta laua positsioonile i-j (x-y) 0 või 1
+                // Math.random()ist lähemalt http://i200.itcollege.ee/api-math-random
             }
         }
 

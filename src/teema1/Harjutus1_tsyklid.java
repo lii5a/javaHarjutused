@@ -19,5 +19,32 @@ package teema1;
 public class Harjutus1_tsyklid {
     public static void main(String[] args) {
 
+        for (int k = 10; k > 0; k--) {
+            System.out.print(k+" ");
+
+        }
+        System.out.println(" "); // ilmselt veidi opakas viis teha kahe ülesande vahele loetavuse nimel tühje ridu
+        System.out.println(" ");
+
+        for (int i = 0; i < 11; i++) {
+            if (i % 2 ==0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println(" "); // ilmselt veidi opakas viis teha kahe ülesande vahele loetavuse nimel tühje ridu
+        System.out.println(" ");
+
+        for (int l = 0; l < 9; l++) {
+            for (int j = 0; j < 10 ; j++) { //see teeb rida
+                if (j+l<10){
+                System.out.printf("%3d", l + j);
+                    }
+               // else {
+                    //System.out.println(l);}
+            }
+           System.out.println();
+
+        }
+
     }
 }

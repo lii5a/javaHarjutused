@@ -1,17 +1,17 @@
-/**
- * Created by liisa on 31/10/15.
- */
+        /**
+        * Created by liisa on 31/10/15.
+        */
 
-package teema1;
+        package teema1;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
-import lib.Foor;
+        import javafx.application.Application;
+        import javafx.stage.Stage;
+        import lib.Foor;
 
-public class Peamurdja1_ise extends Application {
+        public class Peamurdja1_ise extends Application {
 
-    @Override //extendime applicationit, seal n start-meetod juba olemas, see kirjutatakse üle
-    public void start(Stage primaryStage) throws Exception {
+        @Override //extendime applicationit, seal n start-meetod juba olemas, see kirjutatakse üle
+        public void start(Stage primaryStage) throws Exception {
         Foor foor = new Foor();
 
 
@@ -27,14 +27,14 @@ public class Peamurdja1_ise extends Application {
         foor.paus(3);
         foor.kustutaRoheline();
         foor.paus(0.5);
-            for (int j=0;j<3; j++){
-            foor.vahetaRohelist();
-            foor.paus(0.5);
-            foor.kustutaRoheline();
-            foor.paus(0.5);}
-            foor.vahetaKollast();
-            foor.paus(2);
-            foor.kustutaKollane();
+        for (int j=0;j<3; j++){
+        foor.vahetaRohelist();
+        foor.paus(0.5);
+        foor.kustutaRoheline();
+        foor.paus(0.5);}
+        foor.vahetaKollast();
+        foor.paus(2);
+        foor.kustutaKollane();
 }
 }
 }

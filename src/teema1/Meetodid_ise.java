@@ -42,7 +42,7 @@ public class Meetodid_ise {
             }
 
             /*+    Kristeril oli nii. Votsiis, meetodit saab iseenda sees ka välja kutsuda, aha!
-            
+
                 if (sisestus < max && sisestus > min) {
                         return sisestus;
                         } else {

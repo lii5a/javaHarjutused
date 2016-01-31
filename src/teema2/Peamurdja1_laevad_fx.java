@@ -52,7 +52,7 @@ public class Peamurdja1_laevad_fx extends Application {
             }
             if (!laevasidAlles()) { //kui siin klikkimine käib ja laevasid ei ole alles enam
                 gameover(); //siis käivitub gameover meetod.
-                System.out.println("geim õuver");
+                System.out.println("geim õuver");//see juhtub konsoolis
 
             }
         });
